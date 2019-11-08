@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+<div class="d-flex justify-content-center align-items-center container-fluid bg-1">
+    {% block content %}
+		<h3>Results</h3>
+		<hr>
+		<br>
+		<hr>
+		<br>
+		<a href="{{ url_for('upload_file') }}">
+			<input type="button" value="Home"/>
+		</a>
+    {% endblock %}
+</div>
