@@ -25,7 +25,7 @@ def upload_file():
     """
     Main route handler.
 
-    Uploads the PCAP file and returns the detection results.
+    Uploads the file to the server.
 
     :param: None
     :return: str
